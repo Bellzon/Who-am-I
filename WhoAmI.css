@@ -1,0 +1,67 @@
+body{
+	display: table;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+}
+
+#big-circle{
+	border-radius: 10rem;
+	background-color: yellow;
+	display: table-cell;
+	vertical-align: center;
+}
+
+#content{
+	border: 1px solid black;
+	height: 340px;
+	width: 500px;
+	margin: auto;
+	margin-top: 250px;
+	margin-bottom: 20px;
+	background-color: blue;
+
+}
+
+.small-circle{
+	border-radius: 10rem;
+	background-color: red;
+	height: 13rem;
+	width: 18rem;
+
+}
+#father{
+	position: absolute;
+	top: 20px;
+	left: 80px;
+	text-align: center;	
+}
+#husband{
+	position: absolute;
+	top: 270px;
+	left: 10px;
+}
+#gitar-hero{
+	position: absolute;
+	top: 20px;
+	left: 380px;
+}
+#woodwork-master{
+	position: absolute;
+	top: 20px;
+	left: 700px;
+}
+#research-manager{
+	position: absolute;
+	top: 20px;
+	left: 1000px;
+}
+#frontend-developer{
+	position: absolute;
+	top: 270px;
+	left: 1070px;
+}
+
+#father-text{
+	display: none;
+}
